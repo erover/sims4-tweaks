@@ -5,7 +5,17 @@ This is a simple python script that allows users to generate a new .tuning file 
 I'm currently still testing this and the XML that it generates. If you want to help that would be neat but if you don't like packaging up untested XML and adding it to your game, maybe give this a pass for the moment.
 
 ##Instructions
-
+0. MAKE SAVE BACKUPS BEFORE YOU DO ANYTHING TO YOUR SIMS GAME.
+1. Run the script in the Python Interpreter.
+2. Follow instructions on screen.
+3. When you're sure you've got all of the correct values you'd like in your mod, select menu option 4, "Finish and Export".
+4. Open [s4pe](https://github.com/Kuree/Sims4Tools/releases).
+5. File -> New in s4pe.
+6. Resource -> Import -> From File
+7. Navigate to the directory this script is saved to and select S4_03B33DDF_00000000_5D0152209188C58B%%+ITUN.tuning.
+8. File -> Save. Name it anything you want, anywhere you want.
+9. Congratulations you now have a .package file that overrides the default age lengths in The Sims 4.
+10. Write back and tell me if your game blew up or not. Seriously anything this thing can spit out has barely been tested.
 
 Mods that this tool creates override the XML resource 03B33DDF 00000000 5D0152209188C58B, so any other packages that override the same resource will conflict and your games wont work when trying to use both of them.
 Basically, don't try to install multiple packages that modify age length because that will prevent your game from loading and also is just really stupid.
@@ -21,6 +31,9 @@ Basically, don't try to install multiple packages that modify age length because
 | Date     | Change            |
 |----------|-------------------|
 | 17/10/15 | Initial 'Release' |
+
+##Known Issues
+*The neat little tables that the script is meant to show don't look very neat anymore because formatting got broked somewhere down the line. I have decided that this issue loses to precedent to confirming that the script actually spits out valid XML.
 
 ##TOU
 Whatever.
