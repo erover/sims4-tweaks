@@ -13,7 +13,7 @@ I'm currently still testing this and the XML that it generates. If you want to h
 5. File -> New in s4pe.
 6. Resource -> Import -> From File
 7. Navigate to the directory this script is saved to and select S4_03B33DDF_00000000_5D0152209188C58B%%+ITUN.tuning.
-8. File -> Save. Name it anything you want, anywhere you want.
+8. File -> Save. Name it anything you want, anywhere you want. Make sure to append .package to the end of your file name.
 9. Congratulations you now have a .package file that overrides the default age lengths in The Sims 4.
 10. Write back and tell me if your game blew up or not. Seriously anything this thing can spit out has barely been tested.
 
@@ -33,7 +33,8 @@ Basically, don't try to install multiple packages that modify age length because
 | 17/10/15 | Initial 'Release' |
 
 ##Known Issues
-*The neat little tables that the script is meant to show don't look very neat anymore because formatting got broked somewhere down the line. I have decided that this issue loses to precedent to confirming that the script actually spits out valid XML.
+* The neat little tables that the script is meant to show don't look very neat anymore because formatting got broked somewhere down the line. I have decided that this issue loses to precedent to confirming that the script actually spits out valid XML.
+* new.tuning doesn't get deleted after the program is finished using it like it should be. Not really an urgent issue.
 
 ##TOU
 Whatever.
