@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sims 4 Age Mod Generation Script Template-->
+<M n="sims.aging.aging_tuning" s="6701728020338099595">
+  <C n="AgeTransitions">
+    <L n="AGE_SPEED_SETTING_MULTIPLIER">
+      <U>
+        <E n="key">FAST</E>
+        <T n="value">$FAST_MULT</T>
+      </U>
+      <U>
+        <E n="key">NORMAL</E>
+        <T n="value">$NORMAL_MULT</T>
+      </U>
+      <U>
+        <E n="key">SLOW</E>
+        <T n="value">$SLOW_MULT</T>
+      </U>
+    </L>
+    <L n="AGE_TRANSITION_INFO">
+      <U>
+        <E n="key">ADULT</E>
+        <U n="value">
+          <T n="age_trait">34319</T>
+          <T n="age_transition_delay">1</T>
+          <U n="age_transition_dialog">
+            <T n="age_description">0x6C4D57F2</T>
+            <V n="title" t="enabled">
+              <T n="enabled">0x6AC23084</T>
+            </V>
+          </U>
+          <T n="age_transition_threshold">$A_THRESH</T>
+          <T n="age_transition_warning">2</T>
+          <U n="age_up_available_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x50B14100</T>
+            </V>
+          </U>
+          <U n="age_up_warning_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x51BC146</T>
+            </V>
+          </U>
+          <U n="auto_aging_actions">
+            <T n="buff">12442</T>
+            <L n="buff_tests">
+              <L>
+                <V t="situation_job_test">
+                  <U n="situation_job_test">
+                    <L n="situation_jobs">
+                      <T>31638</T>
+                      <T>31636</T>
+                      <T>31633</T>
+                      <T>32407</T>
+                    </L>
+                  </U>
+                </V>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_blacklist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </U>
+      </U>
+      <U>
+        <E n="key">BABY</E>
+        <U n="value">
+          <T n="age_trait">34314</T>
+          <T n="age_transition_delay">1</T>
+          <U n="age_transition_dialog">
+            <T n="age_description">0xED78848E</T>
+            <V n="title" t="enabled">
+              <T n="enabled">0x8588E23D</T>
+            </V>
+          </U>
+          <T n="age_transition_threshold">$B_THRESH</T>
+          <T n="age_transition_warning">1</T>
+          <U n="age_up_available_notification">
+            <V t="enabled" n="icon">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V t="enabled" n="secondary_icon">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0xAB52084D</T>
+            </V>
+          </U>
+          <U n="age_up_warning_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x51BC146</T>
+            </V>
+          </U>
+          <U n="auto_aging_actions">
+            <T n="buff">12442</T>
+            <L n="buff_tests">
+              <L>
+                <V t="situation_job_test">
+                  <U n="situation_job_test">
+                    <L n="situation_jobs">
+                      <T>31638</T>
+                      <T>31636</T>
+                      <T>31633</T>
+                      <T>32407</T>
+                    </L>
+                  </U>
+                </V>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_blacklist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </U>
+      </U>
+      <U>
+        <E n="key">CHILD</E>
+        <U n="value">
+          <T n="age_trait">34316</T>
+          <T n="age_transition_delay">1</T>
+          <U n="age_transition_dialog">
+            <T n="age_description">0x50C7CD6C</T>
+            <V n="aspirations_and_trait_assignment" t="enabled">
+              <T n="enabled">0x1274FFCA</T>
+            </V>
+            <V n="title" t="enabled">
+              <T n="enabled">0x96C92406</T>
+            </V>
+          </U>
+          <T n="age_transition_threshold">$C_THRESH</T>
+          <T n="age_transition_warning">2</T>
+          <U n="age_up_available_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x50B14100</T>
+            </V>
+          </U>
+          <U n="age_up_warning_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x51BC146</T>
+            </V>
+          </U>
+          <U n="auto_aging_actions">
+            <T n="buff">12442</T>
+            <L n="buff_tests">
+              <L>
+                <V t="situation_job_test">
+                  <U n="situation_job_test">
+                    <L n="situation_jobs">
+                      <T>31638</T>
+                      <T>31636</T>
+                      <T>31633</T>
+                      <T>32407</T>
+                    </L>
+                  </U>
+                </V>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_blacklist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </U>
+      </U>
+      <U>
+        <E n="key">ELDER</E>
+        <U n="value">
+          <T n="age_trait">34320</T>
+          <T n="age_transition_delay">1</T>
+          <U n="age_transition_dialog">
+            <T n="age_description">0xB62F8607</T>
+            <V n="title" t="enabled">
+              <T n="enabled">0xD654EB91</T>
+            </V>
+          </U>
+          <T n="age_transition_threshold">$E_THRESH</T>
+          <T n="age_transition_warning">2</T>
+          <U n="age_up_available_notification">
+            <V t="enabled" n="secondary_icon">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x5E91608D</T>
+            </V>
+          </U>
+          <U n="age_up_warning_notification">
+            <V t="enabled" n="secondary_icon">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0xF423A458</T>
+            </V>
+          </U>
+          <U n="auto_aging_actions">
+            <T n="buff">12442</T>
+            <L n="buff_tests">
+              <L>
+                <V t="situation_job_test">
+                  <U n="situation_job_test">
+                    <L n="situation_jobs">
+                      <T>31638</T>
+                      <T>31636</T>
+                      <T>31633</T>
+                      <T>32407</T>
+                    </L>
+                  </U>
+                </V>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_blacklist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </U>
+      </U>
+      <U>
+        <E n="key">TEEN</E>
+        <U n="value">
+          <T n="age_trait">34317</T>
+          <T n="age_transition_delay">1</T>
+          <U n="age_transition_dialog">
+            <T n="age_description">0x55AD9DD3</T>
+            <V n="aspirations_and_trait_assignment" t="enabled">
+              <T n="enabled">0x45A9759E</T>
+            </V>
+            <V t="enabled" n="title">
+              <T n="enabled">0xB1CD7B18</T>
+            </V>
+          </U>
+          <T n="age_transition_threshold">$T_THRESH</T>
+          <T n="age_transition_warning">2</T>
+          <U n="age_up_available_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x50B14100</T>
+            </V>
+          </U>
+          <U n="age_up_warning_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x51BC146</T>
+            </V>
+          </U>
+          <U n="auto_aging_actions">
+            <T n="buff">12442</T>
+            <L n="buff_tests">
+              <L>
+                <V t="situation_job_test">
+                  <U n="situation_job_test">
+                    <L n="situation_jobs">
+                      <T>31638</T>
+                      <T>31636</T>
+                      <T>31633</T>
+                      <T>32407</T>
+                    </L>
+                  </U>
+                </V>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_blacklist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </U>
+      </U>
+      <U>
+        <E n="key">YOUNGADULT</E>
+        <U n="value">
+          <T n="age_trait">34318</T>
+          <T n="age_transition_delay">1</T>
+          <U n="age_transition_dialog">
+            <T n="age_description">0x55AD9DD0</T>
+            <V n="aspirations_and_trait_assignment" t="enabled">
+              <T n="enabled">0x82FF24A9</T>
+            </V>
+            <V t="enabled" n="title">
+              <T n="enabled">0xB1CD7B18</T>
+            </V>
+          </U>
+          <T n="age_transition_threshold">$YA_THRESH</T>
+          <T n="age_transition_warning">2</T>
+          <U n="age_up_available_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x50B14100</T>
+            </V>
+          </U>
+          <U n="age_up_warning_notification">
+            <V n="icon" t="enabled">
+              <V n="enabled" t="resource_key">
+                <U n="resource_key">
+                  <T n="key" p="InGame\UI\Icons\Headlines\Final\headline_birthdaycake.png">2f7d0004:00000000:01174fbceba2cb97</T>
+                </U>
+              </V>
+            </V>
+            <V n="secondary_icon" t="enabled">
+              <V n="enabled" t="participant"/>
+            </V>
+            <V n="text" t="single">
+              <T n="single">0x51BC146</T>
+            </V>
+          </U>
+          <U n="auto_aging_actions">
+            <T n="buff">12442</T>
+            <L n="buff_tests">
+              <L>
+                <V t="situation_job_test">
+                  <U n="situation_job_test">
+                    <L n="situation_jobs">
+                      <T>31638</T>
+                      <T>31636</T>
+                      <T>31633</T>
+                      <T>32407</T>
+                    </L>
+                  </U>
+                </V>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_whitelist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+              <L>
+                <V t="situation_running_test">
+                  <U n="situation_running_test">
+                    <V n="situation_blacklist" t="enabled">
+                      <L n="enabled">
+                        <T>31635</T>
+                      </L>
+                    </V>
+                  </U>
+                </V>
+              </L>
+            </L>
+          </U>
+        </U>
+      </U>
+    </L>
+    <L n="BONUS_TRAIT_DAYS">
+      <U>
+        <T n="percent_days_award">0.25</T>
+        <T n="tuned_trait">27081</T>
+      </U>
+      <U>
+        <T n="percent_days_award">0.1</T>
+        <T n="tuned_trait">27419</T>
+      </U>
+    </L>
+  </C>
+  <C n="AgingTuning">
+    <T n="AGE_PROGRESS_UPDATE_TIME">0.1</T>
+    <T n="AGE_SUPPRESSION_ALARM_TIME">20</T>
+    <T n="AGE_UP_MOMENT">12999</T>
+    <T n="OLD_AGE_DEATH">13300</T>
+  </C>
+</M>
