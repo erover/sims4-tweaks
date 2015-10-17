@@ -34,7 +34,7 @@ Basically, don't try to install multiple packages that modify age length because
 
 ##Known Issues
 * The neat little tables that the script is meant to show don't look very neat anymore because formatting got broked somewhere down the line. I have decided that this issue loses to precedent to confirming that the script actually spits out valid XML.
-* new.tuning doesn't get deleted after the program is finished using it like it should be. Not really an urgent issue.
+* new.tuning doesn't get deleted after the program is finished using it like it should be. Not really an urgent issue, but there is code there that *should* be doing that but is not for some reason. 
 * Whitespace purging code doesn't do anything to XML comments. It should probably delete them.
 
 ##TOU
