@@ -192,7 +192,7 @@ def argumentInput(argv):
 #Main
 title = "Sims 4 Custom Age Mod Generator v.0.0.0" #version number ought to be updated every now and then I suppose
 print(title)
-print("By Exx\n".center(len(title)))
+print("By CptKirklnd\n".center(len(title)))
 print("For instructions, please refer to AgeMod.md.")
 ##if len(sys.argv) > 1:
 ##      argumentInput(argv)
