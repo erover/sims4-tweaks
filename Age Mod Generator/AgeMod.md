@@ -40,6 +40,6 @@ Basically, don't try to install multiple packages that modify age length because
 Whatever.
 
 ##Credits
-[Sims4Group](http://sims4group.github.io/) for s4pe.
-velocitygrass and scumbumbo for their respecive Sims 4 XML extractors.
-Mark Hamill. Just in general.
+* [Sims4Group](http://sims4group.github.io/) for s4pe.
+* velocitygrass and scumbumbo for their respecive Sims 4 XML extractors.
+* Mark Hamill. Just in general.
