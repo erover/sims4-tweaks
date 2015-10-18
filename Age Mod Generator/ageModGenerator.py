@@ -1,9 +1,8 @@
 import sys
 import os
 
-#stores values for aging option ratios
-#medium is not allowed to be changed from 1
-
+#name for .tuning files that override life stage lengths
+#this is global because I am a bad programmer and also refuse to type this multiple times
 namingConvention = "S4_03B33DDF_00000000_5D0152209188C58B%%+ITUN.tuning"
 
 ratios = {1 : 2, #short
