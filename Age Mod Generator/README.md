@@ -36,7 +36,7 @@ Basically, don't try to install multiple packages that modify age length because
 * The neat little tables that the script is meant to show don't look very neat anymore because formatting got broked somewhere down the line. I have decided that this issue loses to precedent to confirming that the script actually spits out valid XML.
 
 ##TOU
-Whatever. It's a find-and-replace script. ''¯\_(⊙_ʖ⊙)_/¯''
+Whatever. It's a find-and-replace script that might actually take longer to run than it would to actually change the XML yourself if you're familiar with how The Sims 4 handles life stage tuning.
 
 ##Credits
 * [Sims4Group](http://sims4group.github.io/) for s4pe.
