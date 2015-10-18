@@ -1,6 +1,6 @@
 #Sms 4 Age Mod Generation Script
 Don't like EAxis' settings for Sim lifespans? Don't like any of the pre-existing mods? XML fill you with the overwhelming urge to pry your own eyes from your skull like it does with me?
-This is a simple python script that allows users to generate a new .tuning file that overrides the game's age length XML without ever having to actually read any XML. It also purges whitespace like EA recommends in their modding documentation, which probably improves performance somewhere down the line.
+This is a simple python script that allows users to generate a new .tuning file that overrides the game's age length XML without ever having to actually read any XML because XML is bloody hateful.
 
 I'm currently still testing this and the XML that it generates. If you want to help that would be neat but if you don't like packaging up untested XML and adding it to your game, maybe give this a pass for the moment.
 
@@ -25,7 +25,6 @@ Basically, don't try to install multiple packages that modify age length because
 2. Copy is made of template.tuning file.
 3. Script takes use-entered age length value and overwrites placeholders in template copy.
 4. Template is renamed to "S4_03B33DDF_00000000_5D0152209188C58B%%+ITUN.tuning".
-5. Whitespace is purged from the newly created .tuning file because EA recommends doing so for performance.
 
 ##Changelog
 | Date     | Change            |
