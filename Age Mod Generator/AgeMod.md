@@ -30,7 +30,7 @@ Basically, don't try to install multiple packages that modify age length because
 | Date     | Change            |
 |----------|-------------------|
 | 17/10/15 | Initial 'Release' |
-| 17/10/15 | Hotfixed problem where the specific whitespace purging code in the released version was corrupting saves somehow. By removing all the purge code. Purging to be returned to at later date. Also fixed issue with new.tuning not getting deleted when it should have been.|
+| 17/10/15 | Hotfixed problem where whitespace purging was corrupting saves somehow. By removing all the purge code. Purging to be returned to at later date. Also fixed issue with new.tuning not getting deleted when it should have been.|
 
 ##Known Issues
 * The neat little tables that the script is meant to show don't look very neat anymore because formatting got broked somewhere down the line. I have decided that this issue loses to precedent to confirming that the script actually spits out valid XML.
