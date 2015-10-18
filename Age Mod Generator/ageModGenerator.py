@@ -151,20 +151,17 @@ def export():
     template.close()
 
     #second pass over new.tuning, first pass over the final file
-    #purges whitespace from new file because EA recommends to do so
-    #probably a performance thing
     final = open(namingConvention, "wt")
     newXML = open("new.tuning")
     for line in newXML:
-        line = line.strip()
-        line = line.replace(" ", "")
-        line = line.replace("\n", "")
+        for x in range(1, 4):
+            line = line.replace(tempRatios[x], str(ratios[x]))
         final.write(line)
     newXML.close()
     final.close()
 
     #cleans up new.tuning
-    os.remove(new.tuning)
+    os.remove("new.tuning")
     return 0
 
 def promptedInput():
@@ -192,7 +189,7 @@ def argumentInput(argv):
 #Main
 title = "Sims 4 Custom Age Mod Generator v.0.0.0" #version number ought to be updated every now and then I suppose
 print(title)
-print("By Exx\n".center(len(title)))
+print("By CptKirklnd\n".center(len(title)))
 print("For instructions, please refer to AgeMod.md.")
 ##if len(sys.argv) > 1:
 ##      argumentInput(argv)
