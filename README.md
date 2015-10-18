@@ -2,5 +2,6 @@
 Various tweaks and tweaking utilities for The Sims 4.
 
 ##Contents
-###Age Length Override Generator
-Irreparably broken and I don't know why.
+| Package           | Description                                                                | Status      |
+|-------------------|----------------------------------------------------------------------------|-------------|
+| Age Mod Generator | Python script that generates XML for aging overrides so you don't have to. | In testing. |
